@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b29b9b;
+}
+
+.clock-container {
+    text-align: center;
+    background-color: #9e732cfd;
+    padding: 20px;
+    border: 2px solid #a7adb5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.clock {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #07d;
+    text-shadow: 0px 0px 5px rgba(83, 203, 23, 0.7);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+#toggleFormatButton {
+    padding: 10px 20px;
+    background-color: rgb(91, 121, 148);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#toggleFormatButton:hover {
+    background-color: #0056b3;
+}
